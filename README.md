@@ -26,13 +26,15 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site](http://127.0.0.1:5500/product-preview-card-component-main/index.html)
+- Solution URL: [https://github.com/lesandra007/product-preview-card-component-main](https://github.com/lesandra007/product-preview-card-component-main)
+- Live Site URL: [https://transcendent-sfogliatella-883205.netlify.app/](https://transcendent-sfogliatella-883205.netlify.app/)
 
 ## My process
 
 ### Built with
 
 - [Visual Studio Code](https://code.visualstudio.com/) - to write code
+- [Netlify](https://www.netlify.com/) - to deploy website
 
 ### What I learned
 
