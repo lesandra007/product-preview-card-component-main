@@ -134,6 +134,7 @@
     --content-spacing: 1rem;
 
     display: grid;
+    
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
     overflow: hidden;
