@@ -13,8 +13,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -39,6 +37,36 @@ Users should be able to:
 ### What I learned
 
 html and css basics! This is my first html/css project!
+
+Responsive layouts with grid display and media:
+```css
+.product {
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
+
+    display: grid;
+    
+    background-color: var(--clr-neutral-100);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+@media(min-width: 600px){
+    .product{
+        --content-padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+```
+Responsive between desktop and mobile images depending on size:
+```html
+<picture class="product__img">
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+        <img src="images/image-product-mobile.jpg" 
+          alt="Gabrielle Essence perfume bottole laying flat on a table">
+      </picture>
+```
 
 ### Useful resources
 
